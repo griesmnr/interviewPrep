@@ -25,6 +25,14 @@ public class Main {
 
         System.out.println("begin locker demo er. flip all the lockers. brain teaser");
         new LockerDemoEr(new Locker[100]).demo();
+
+        System.out.println("begin egg breaker demo. From nth floor");
+        new EggDemoEr(3).demo();
+        new EggDemoEr(51).demo();
+        new EggDemoEr(99).demo();
+        new EggDemoEr(100).demo();
+        new EggDemoEr(49).demo();
+        new EggDemoEr(25).demo();
     }
 
 }
