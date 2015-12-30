@@ -22,6 +22,9 @@ public class Main {
         new ListDemoEr(" ", "").demo();
         new ListDemoEr(":D", ":(").demo();
         new ListDemoEr("madam i'", "im adam").demo();
+
+        System.out.println("begin locker demo er. flip all the lockers. brain teaser");
+        new LockerDemoEr(new Locker[100]).demo();
     }
 
 }
